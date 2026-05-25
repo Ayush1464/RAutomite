@@ -5,8 +5,6 @@ import { RouterProvider } from "@tanstack/react-router";
 
 import { getRouter } from "./router";
 
-import "./index.css";
-
 const router = getRouter();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
